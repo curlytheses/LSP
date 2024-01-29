@@ -12,17 +12,22 @@ const Header = () => {
   return (
     <section className="h-wrapper" style={{ background: headerColor }}>
       <div className="flexCenter innerWidth paddings h-container">
-        {/* logo */}
-        <img src="./logo.png" alt="logo" width={100} />
+        {}
+        <img
+          src="/favicon.ico"
+          alt="logo"
+          height={35}
+          width={40}
+          style={{ marginBottom: "7px" }}
+        />
 
-        {/* menu */}
+        {}
         <OutsideClickHandler
           onOutsideClick={() => {
             setMenuOpened(false);
           }}
         >
           <div
-            // ref={menuRef}
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
@@ -36,7 +41,7 @@ const Header = () => {
           </div>
         </OutsideClickHandler>
 
-        {/* for medium and small screens */}
+        {}
         <div
           className="menu-icon"
           onClick={() => setMenuOpened((prev) => !prev)}
