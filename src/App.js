@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header/Header.jsx'
 
 function App() {
   return (
@@ -7,14 +7,7 @@ function App() {
       <div>
         <div className="white-gradient" />
         <Header />
-        <Hero />
       </div>
-      <Companies />
-      <Residencies/>
-      <Value/>
-      <Contact/>
-      <GetStarted/>
-      <Footer/>
     </div>
   );
 }
