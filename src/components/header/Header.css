@@ -7,7 +7,28 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     color: var(--secondary);
-    justify-content: space-between;
+    justify-content: space-between; 
+  }
+  
+  .h-container a {
+    position: relative; 
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  .h-container a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .h-container a:hover::after {
+    background-color: #000000; 
   }
   .divider {
     margin: 10px 20px 10px;
