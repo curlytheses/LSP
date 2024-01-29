@@ -5,8 +5,12 @@
     flex: 1;
   }
   .c-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
+  
   .c-left {
     gap: 0.5rem;
   }
