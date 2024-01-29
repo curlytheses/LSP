@@ -2,6 +2,8 @@
   "name": "lsp",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
+  "homeoage": "./",
   "dependencies": {
     "framer-motion": "^10.8.5",
     "react": "^18.2.0",
