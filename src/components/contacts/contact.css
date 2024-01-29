@@ -25,6 +25,12 @@
     gap: 1rem;
     transition: all 300ms ease-in;
   }
+  .divider {
+    margin: 10px 20px 10px;
+    border: none;
+    border-top: 0.00000000000000001 solid #ddd; 
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1); 
+  }
   .mode .button {
     width: 100%;
     background: var(--lightBlue);

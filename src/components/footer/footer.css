@@ -9,6 +9,13 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+.divider {
+    margin: 10px 20px 10px;
+    border: none;
+    border-top: 0.00000000000000001 solid #ddd; 
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1); 
+}
+  
 @media (max-width: 768px) {
     .f-container{
         justify-content: center;

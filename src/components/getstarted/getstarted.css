@@ -1,12 +1,17 @@
 .inner-container{
     gap: 1.5rem;
-    background: #000000;
+    background: black;
     padding: 2rem;
     border-radius: 10px;
     border: 6px solid #000000;
     text-align: center;
 }
-
+.divider {
+    margin: 10px 20px 10px;
+    border: none;
+    border-top: 0.00000000000000001 solid #ddd; 
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1); 
+}
 .inner-container .primaryText{
     color: white;
     font-weight: 600;

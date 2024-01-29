@@ -3,7 +3,7 @@ import './companies.css'
 const Companies = () => {
   return (
     <section className="c-wrapper">
-      <div className="padding">
+      <div id="partners" className="padding">
       <div className="paddings innerWidth flexCenter c-container">
         <img src="./jkpaper.png" alt="" />
         <img src="./formujet.jpg" alt="" />
@@ -11,6 +11,7 @@ const Companies = () => {
         <img src="./tnpl.jpg" alt="" />
       </div>
       </div>
+      <hr className="divider" />
     </section>
   );
 };

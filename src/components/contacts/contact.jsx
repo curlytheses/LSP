@@ -4,7 +4,9 @@ import { MdCall } from "react-icons/md";
 import { BsCameraVideoFill, BsFillChatDotsFill } from "react-icons/bs";
 import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
 const Contact = () => {
-  return (
+  return ( 
+    <div className="padding">
+      <hr className="divider" />
     <div id="contact-us" className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
         {/* left side */}
@@ -84,6 +86,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
