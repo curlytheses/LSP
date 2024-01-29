@@ -12,14 +12,14 @@ code {
     monospace;
 }
 :root {
-  --primary: #1f3e72;
+  --primary: #000000;
   --secondary: black;
   --black: .white-gradient;
   --black-gradient: linear-gradient(97.05deg, #000000 3.76%, #000000 100%);
-  --orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+  --orange-gradient: linear-gradient(270deg, #ff7b00 0%, #ff7b00 100%);
   --blue: #4066ff;
   --lightBlue: .white-gradient;
-  --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  --shadow: 0px 23px 21px -8px gray;
 }
 
 * {
@@ -80,7 +80,7 @@ a {
 }
 
 .primaryText {
-  color: #1f3e72;
+  color: #000000;
   font-weight: bold;
   font-size: 2rem;
 }
@@ -126,7 +126,7 @@ a {
 .button {
   font-weight: 500;
   padding: 0.6rem 1.4rem;
-  color: white;
+  color: rgb(0, 0, 0);
   background: var(--black-gradient);
   border: none;
   border-radius: 4px;
