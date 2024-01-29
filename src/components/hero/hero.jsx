@@ -7,24 +7,24 @@ const Hero = () => {
       <div className="paddings innerWidth flexCenter hero-container">
         {/* left side */}
         <div className="flexColStart hero-left">
-          <div className="hero-title">
-            <div className="orange-circle" />
-            <motion.h1
-            initial={{ y: "2rem", opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{
-              duration: 2,
-              type: "ease-in",
-            }}
-            >
-              Discover <br />
-              Most Suitable
-              <br /> Property
+        <div className="hero-title">
+          <motion.h1
+          initial={{ y: "2rem", opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{
+            duration: 2,
+            type: "ease-in",
+          }}
+          >
+            Find <br />
+            Your Needs
+            <br /> Here
             </motion.h1>
-          </div>
+            </div>
+
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Find a variety of products that suit you very easilty</span>
+            <span>Forget all difficulties in finding your stationary needs for you</span>
           </div>
 
           <div className="flexCenter stats">

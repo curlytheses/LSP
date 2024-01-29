@@ -18,7 +18,7 @@ code {
   --black-gradient: linear-gradient(97.05deg, #000000 3.76%, #000000 100%);
   --orange-gradient: linear-gradient(270deg, #ff7b00 0%, #ff7b00 100%);
   --blue: #4066ff;
-  --lightBlue: .white-gradient;
+  --lightBlue: .black-dradient;
   --shadow: 0px 23px 21px -8px gray;
 }
 
