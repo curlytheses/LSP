@@ -35,8 +35,8 @@ const Header = () => {
             <a href="#companies">Partners</a>
             <a href="#contact-us">Contact Us</a>
             <a href="#get-started">Get Started</a>
-            <button className="button">
-              <a href="laxmi_stationers10@rediffmail.com">Contact</a>
+            <button className="button" style={{ color: 'white' }}>
+              <a href="mailto:laxmi_stationers10@rediffmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>Contact</a>
             </button>
           </div>
         </OutsideClickHandler>

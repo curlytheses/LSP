@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { MdCall } from "react-icons/md";
-import { BsFillChatDotsFill } from "react-icons/bs";
+import { BsCameraVideoFill, BsFillChatDotsFill } from "react-icons/bs";
 import {HiChatBubbleBottomCenter} from 'react-icons/hi2'
 const Contact = () => {
   return (
@@ -26,7 +26,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91 - 9830785589</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call now</div>
@@ -39,7 +39,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Chat</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91 - 9830785589</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Chat now</div>
@@ -51,11 +51,11 @@ const Contact = () => {
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
-                    <BsFillChatDotsFill size={25} />
+                    <BsCameraVideoFill size={25} />
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Video Call</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91 - 9830785589</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Video Call now</div>
@@ -68,7 +68,7 @@ const Contact = () => {
                   </div>
                   <div className="flexColStart detail">
                     <span className="primaryText">Message</span>
-                    <span className="secondaryText">021 123 145 14</span>
+                    <span className="secondaryText">+91 - 9830785589</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Message now</div>

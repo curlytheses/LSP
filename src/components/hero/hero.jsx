@@ -16,8 +16,8 @@ const Hero = () => {
             type: "ease-in",
           }}
           >
-            Find <br />
-            Your Needs
+            Find All<br />
+            Your Stationery Needs
             <br /> Here
             </motion.h1>
             </div>

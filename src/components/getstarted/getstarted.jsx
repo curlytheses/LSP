@@ -1,5 +1,6 @@
 import React from "react";
 import "./getstarted.css";
+
 const GetStarted = () => {
   return (
     <div id="get-started" className="g-wrapper">
@@ -11,9 +12,8 @@ const GetStarted = () => {
             <br />
             Find your Needs soon
           </span>
-          <button className="button" href>
-            <a href="mailto:zainkeepscode@gmail.com">Get Started</a>
-          </button>
+          <a href="mailto:laxmi_stationers10@rediffmail.com" className="button">Get Started</a>
+          <div className="button-top-gradients"></div> {/* Add this div for the gradients */}
         </div>
       </div>
     </div>

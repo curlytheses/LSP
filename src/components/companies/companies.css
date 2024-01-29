@@ -5,3 +5,7 @@
 .c-container>img{
     width: 9rem;
 }
+.padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
