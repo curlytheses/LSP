@@ -31,12 +31,12 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <a href="#residencies">Residencies</a>
+            <a href="#residencies">Home</a>
             <a href="#value">Our Value</a>
             <a href="#contact-us">Contact Us</a>
             <a href="#get-started">Get Started</a>
             <button className="button">
-              <a href="mailto:zainkeepscode@gmail.com">Contact</a>
+              <a href="laxmi_stationers10@rediffmail.com">Contact</a>
             </button>
           </div>
         </OutsideClickHandler>
